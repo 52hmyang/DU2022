@@ -1,18 +1,159 @@
-.contents {
+section > .contents {
+    font-family: 'S-Core Dream';
+    font-style: normal;
+
     box-sizing: border-box;
     padding-left: 50px;
     padding-top: 50px;
 }
 .carwash-offer-container{
-    background-color: brown;
     width: 710px;
     height: 302px;
+
+    text-align: center;
+}
+
+.carwash-offer-container > .header{
+    height: 63px;
+
+    text-align: left;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.carwash-offer-container > .header > span{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+
+    margin-top: 16px;
+}
+
+.carwash-offer-container > .contents{
+    width: 710px;
+    height: 90px;
+
+    margin-top: 40px;
+}
+
+.carwash-offer-container > .contents > .row{
+    width: 710;
+    height: 37px;
+
+    text-align: left;
+}
+
+.carwash-offer-container > .contents > .row > .label{
+    display: inline-block;
+    width: 57px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 37px;
+}
+
+.carwash-offer-container > .contents > .row > .input{
+    display: inline-block;
+    box-sizing: border-box;
+
+    width: 194px;
+    height: 37px;
+    line-height: 37px;
+
+    margin-left: 74px;
+    padding-left: 16px;
+
+    font-weight: 900;
+    font-size: 15px;
+
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+.carwash-offer-container > .contents > .row > :nth-child(3){
+    margin-left: 60px;
+}
+
+.carwash-offer-container > button{
+    width: 325px;
+    height: 65px;
+
+    /*margin-top: 44px;*/
+    margin: 44px auto auto;
+
+    font-weight: 600;
+    font-size: 18px;
+
+    color: white;
+    background: #C6004D;
+    border-radius: 7px;
+    border: none;
 }
 
 .carwash-history-container{
-    background-color: blueviolet;
     width: 730px;
     height: 175px;
-    
+
     margin-top: 77px;
+}
+
+.carwash-history-container > .header{
+    height: 63px;
+    line-height: 29px;
+
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.carwash-history-container > .contents{
+    width: 730px;
+    height: 130px;
+
+    /*margin-top: 16px;*/
+}
+
+.carwash-history-container > .contents > .row{
+    height: 60px;
+}
+
+.carwash-history-container > .contents > .row > div{
+    display: inline-block;
+    font-size: 13px;
+    line-height: 60px;
+}
+
+.carwash-history-container > .contents > .row > div:nth-child(1){
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    text-align: center;
+
+    font-weight: 900;
+    font-size: 15px;
+    color: #C6004D;
+
+    border: 1px solid #C6004D;
+    border-radius: 100%;
+}
+.carwash-history-container > .contents > .row > div:nth-child(2){
+    margin-left: 53px;
+}
+.carwash-history-container > .contents > .row > div:nth-child(3){
+    margin-left: 69px;
+}
+.carwash-history-container > .contents > .row > div:nth-child(4){
+    margin-left: 70px;
+}
+.carwash-history-container > .contents > .row > div:nth-child(5){
+    margin-left: 64px;
+}
+.carwash-history-container > .contents > .row > div:nth-child(6){
+    margin-left: 77px;
+
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: right;
+
+    color: #C6004D;
 }
