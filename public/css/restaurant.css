@@ -1,0 +1,18 @@
+.contents {
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.carwash-offer-container{
+    background-color: brown;
+    width: 710px;
+    height: 302px;
+}
+
+.carwash-history-container{
+    background-color: blueviolet;
+    width: 730px;
+    height: 175px;
+    
+    margin-top: 77px;
+}
